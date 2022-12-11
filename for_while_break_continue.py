@@ -41,4 +41,4 @@ for i in range(1, 11):
         break
 
 else:
-    print(11)
+    print(11) #정상 종료가 되고나면 출력을 한다. 

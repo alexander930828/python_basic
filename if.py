@@ -22,6 +22,9 @@
 # if x>0:
 #     print("양수")
 # else:
-#     print("음수")
+#     print("음수")adsad
 
-ㅌ
+x=80
+
+if x>=90:
+    print("A")
