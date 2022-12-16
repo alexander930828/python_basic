@@ -8,3 +8,8 @@ print(a)
 
 for x in a:
     print(x)
+
+for x in a:
+    for y in x:
+        print(y, end=' ')
+    print()
