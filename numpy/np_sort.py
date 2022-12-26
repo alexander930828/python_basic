@@ -15,3 +15,5 @@ org_array = np.array([3, 1, 9, 5])
 snp = np.argsort(org_array)[::-1]
 
 print(snp)
+
+# 넘파이는 키, 밸류 값으로 매핑하는게 어렵다.
