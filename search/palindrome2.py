@@ -43,7 +43,7 @@ for i in range(3):
         for k in range(2):
             if board[i+k][j] != board[i+5-k-1][j]:
                 break
-            else:
-                cnt += 1
+        else:
+            cnt += 1
 
 print(cnt)
