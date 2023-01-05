@@ -19,7 +19,7 @@ for i in range(n):
         if a[i]==0 and seq[j]==0:
             seq[j] = i+1
             break
-        else: 
+        elif seq[j] == 0:
             a[i] -= 1
 
 for i in seq:
