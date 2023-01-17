@@ -24,7 +24,5 @@ if __name__=="__main__":
     n = len(code)
     code.insert(n, -1)
     res = [0]*(n+3)
-    print(res)
     cnt = 0
     DFS(0, 0)
-    print(cnt)
