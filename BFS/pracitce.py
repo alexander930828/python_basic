@@ -1,10 +1,5 @@
-from collections import deque
+n = 5
 
-Q = deque()
+ch = ([0]*n for _ in range(n))
 
-Q.append((1, 2))
-
-a = Q.popleft()
-
-print(a[1])
-
+print(ch)
