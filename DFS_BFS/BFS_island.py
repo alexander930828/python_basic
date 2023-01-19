@@ -15,7 +15,7 @@ for i in range(n):
                 tmp = Q.popleft()
                 for k in range(8):
                     x = tmp[0]+dx[k]
-                    y = tmp[1]+dx[k]
+                    y = tmp[1]+dy[k]
                     if 0<=x<n and 0<=y<n and board[x][y]==1:
                         board[x][y] = 0
                         Q.append((x, y))
